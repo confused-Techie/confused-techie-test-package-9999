@@ -1,0 +1,22 @@
+# See https://atom.io/docs/latest/hacking-atom-package-word-count#menus for more details
+'context-menu':
+  'atom-text-editor': [
+    {
+      'label': 'Toggle confused-techie-test-package-9999'
+      'command': 'confused-techie-test-package-9999:toggle'
+    }
+  ]
+'menu': [
+  {
+    'label': 'Packages'
+    'submenu': [
+      'label': 'confused-techie-test-package-9999'
+      'submenu': [
+        {
+          'label': 'Toggle'
+          'command': 'confused-techie-test-package-9999:toggle'
+        }
+      ]
+    ]
+  }
+]
